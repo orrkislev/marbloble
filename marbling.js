@@ -66,7 +66,7 @@ class Drop {
     }
 
     show() {
-        if (this.age++ > 500) {
+        if (this.age++ > 1500) {
             drops.splice(this.index, 1)
             return
         }
